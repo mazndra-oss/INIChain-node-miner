@@ -1,0 +1,6 @@
+wget https://github.com/Project-InitVerse/ini-miner/releases/download/v1.0.0/iniminer-linux-x64
+chmod +x iniminer-linux-x64
+screen -S initverse
+./iniminer-linux-x64 --pool stratum+tcp://0xd58a6cD12042bfEdFd07124F3d67ACACC02b9c22.Worker001@pool-core-testnet.inichain.com:32672 --cpu-devices 1 --cpu-devices 2
+ctrl + a + d
+screen -r initverse
